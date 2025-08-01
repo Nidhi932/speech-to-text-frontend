@@ -260,7 +260,7 @@ const Home = () => {
         {/* Transcript Display */}
         {transcript && (
           <div className="mb-10">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">
+            <h3 className="text-lg font-semibold text-gray-900 mb-10">
               Transcription Result
             </h3>
             <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
@@ -270,7 +270,7 @@ const Home = () => {
             </div>
 
             {/* Action Buttons */}
-            <div className="flex flex-wrap justify-center gap-4 mt-6 mb-10">
+            <div className="flex flex-wrap justify-center gap-4 mt-6 mb-[60px]">
               <button
                 onClick={copyToClipboard}
                 className="btn-secondary flex items-center space-x-2"
